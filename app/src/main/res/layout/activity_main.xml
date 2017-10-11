@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <com.example.duxiji.ratingstar.view.Ratingbar
+            android:id="@+id/ratingbar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:starEmptyPic="@mipmap/demo1"
+            app:starFullPic="@mipmap/demo1_bright"
+            app:starInitNum="2"
+            app:starNum="6"
+            app:starPadding="20dp"
+            app:starSize="30dp" />
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="回调的值："
+            />
+    </LinearLayout>
+
+
+    <com.example.duxiji.ratingstar.view.Ratingbar
+        android:id="@+id/ratingbar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:starEmptyPic="@mipmap/icon_small_star02"
+        app:starFullPic="@mipmap/icon_small_star"
+        app:starInitNum="3"
+        app:starNum="5"
+        app:starSize="40dp" />
+
+    <com.example.duxiji.ratingstar.view.Ratingbar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:starEmptyPic="@mipmap/demo1"
+        app:starFullPic="@mipmap/demo1_bright"
+        app:starInitNum="2"
+        app:starNum="6"
+        app:starPadding="20dp"
+        app:starSize="20dp" />
+
+
+</LinearLayout>
